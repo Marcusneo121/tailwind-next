@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+	darkMode: "class",
 	content: [
 		"./app/**/*.{js,ts,jsx,tsx,mdx}",
 		"./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -15,19 +16,19 @@ module.exports = {
 		// 	lg: "976px",
 		// 	xl: "1440px",
 		// },
-		container: {
-			center: true,
-		},
+		// container: {
+		// 	center: true,
+		// },
 		extend: {
-			margin: {
-				1: "14px",
-				2: "16px",
-				3: "18px",
-				4: "20px",
-			},
-			colors: {
-				vuejs: "#49e659",
-			},
+			// margin: {
+			// 	1: "14px",
+			// 	2: "16px",
+			// 	3: "18px",
+			// 	4: "20px",
+			// },
+			// colors: {
+			// 	vuejs: "#49e659",
+			// },
 			// fontSize: {
 			// 	xs: "12px",
 			// 	sm: "15px",
